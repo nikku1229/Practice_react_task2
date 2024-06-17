@@ -1,0 +1,38 @@
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10vh;
+  font-size: 3em;
+}
+
+.btn-div{
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  margin-bottom: 5vh;
+
+  button{
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(45deg, blueviolet,lightblue,lightblue,palevioletred) 1;
+    cursor: pointer;
+  }
+}
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+
+.alert{
+  color: red;
+}
